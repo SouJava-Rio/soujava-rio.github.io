@@ -1,0 +1,243 @@
+﻿@CHARSET "UTF-8";
+
+/*
+   Daniel Dias dos Santos
+*/
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+	/*importado da google*/
+body {
+	font-family: Arial, sans-serif;
+	 background-color:#414141; 
+	 /* background-image:
+		url("../imagens/JavaAtRio.jpeg"); 
+	background-repeat:round; */	
+}
+
+/*formatação da interface*/
+div#interface {
+	width: 1150px;
+	/* background-image:
+		url("../imagens/background-interface.jpg"); */
+	margin: -20px auto 0px auto;
+	
+	/*order: cima. direita, baixo e esquerda - para centralizar*/
+	box-shadow: 0px 0px 45px rgba(233, 233, 233, 0.5);
+	padding: 25px;
+	position: relative;
+	background-color:white;
+	
+	/*arrendondamento da bordas*/
+	border-top-left-radius: 5em;
+	border-top-right-radius: 5em;
+	border-bottom-left-radius: 5em;
+	border-bottom-right-radius: 5em;
+}
+
+P {
+	text-align: center;
+	font-size: medium;
+}
+
+ul#valores {
+	text-align: center;
+	list-style: none;
+}
+
+li {
+	font-style: italic;
+	list-style: none;
+}
+
+/* h2 e h3*/
+h2, h3 {
+	font-family: 'Titillium Web' sans-serif; /*importado da google*/
+	font-size: 15pt;
+	padding: 0px;
+	text-align: center;
+	text-indent: 15px;
+	text-shadow: 1px 1px black;
+}
+
+hgroup h2 {
+	color: yellow;
+}
+
+div.grupo p {
+	width: 1000px; 
+	margin-left: 100px;
+	text-align: center;
+	
+}
+
+/*formatação da imagem com legendas*/
+figure.foto-legenda {
+	/* background-color: rgb(255, 255, 255); */
+	box-shadow: 0px 0px 30px #C46262;
+	width: 860px;
+	margin-left: 210px;
+
+	background: white 50%,#78D2FF 50%; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white 50%,#78D2FF 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white 50%,#78D2FF 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white 50%,#78D2FF 50%); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white 50%,#78D2FF 50%); /* Standard syntax */
+	
+	/*arrendondamento da bordas*/
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+
+img#foto-logo {
+	width: 310px;
+	margin: 20px; 
+	margin-left: 20px;
+	
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	
+	box-shadow: 0px 0px 10px #0A0A0A;
+	/* background-color:rgba(85,86,52,0.6); */
+}
+
+img#foto-contato {
+	width: 1140px;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	
+	box-shadow: 0px 0px 10px rgba(233,233,233,1);
+	background-color:rgba(85,86,52,0.6);
+}
+
+/*formatação da imagem contato*/
+
+/*menu*/
+header#cabecalho nav#menu {
+	display: block; /* faz flutuar*/
+}
+
+/*para lista nao ordenada*/
+header#cabecalho nav#menu ul {
+	list-style: none;
+	text-transform: uppercase; /* deixa a letras maiusculas*/
+	position: absolute;
+	top: 95px;
+	left: 530px;
+}
+
+/*para lista do menu*/
+header#cabecalho nav#menu li {
+	font-family: "Arial";
+	font-weight: bold;
+	display: inline-block; /*itens do menu em reta*/
+	background-color: #dddddd; /*cor de fundo*/
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	
+	/*preenchimento CSS definir o espaço entre a borda do elemento e o conteúdo do elemento*/
+	margin: 1px; /*espaçamento entre os itens*/
+	
+	/*para navegadores antigos*/
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	transition: background-color 1s;
+	
+	/*arrendondamento da bordas*/
+	
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+
+/*configurando a section*/
+section#corpo p {
+	color: black;
+	font-size: medium;
+	font-style: italic;
+	font-weight: bold;
+}
+
+section#corpo {
+	width: 490px;
+	float: left;
+	padding: 25px;
+	background-color: #dddddd;
+	box-shadow: 0px 0px 50px rgba(255, 0, 0, .5);
+	margin: 12px;
+	
+	/*arrendondamento*/
+	border-top-right-radius: 9em;
+	border-bottom-left-radius: 9em;
+}
+
+/*configuração do Aside*/
+aside#lateral {
+	width: 490px;
+	float: right;
+	background-color: #dddddd;
+	padding: 25px;
+	box-shadow: 0px 0px 50px rgba(255, 0, 0, .5);
+	margin: 10px;
+	
+	/*arrendondamento*/
+	border-top-left-radius: 12em;
+	border-bottom-right-radius: 12em;
+}
+
+/*formatnado article*/
+article {
+	font-style: italic;
+	text-align: center;
+}
+
+/*efeito par o menu quando passar o mouse por cima*/
+header#cabecalho nav#menu li:hover {
+	background-color: #606060;
+}
+
+/*ancora do menu*/
+header#cabecalho nav#menu a {
+	color: black;
+	text-decoration: none;
+}
+
+/*Mudando a cor quando passa o mouse*/
+header#cabecalho nav#menu a:hover {
+	color: #ffffff;
+}
+
+/*Configurando o rodape*/
+ footer#rodape {
+	clear: both; /*limpa a configuração*/
+	 background-color: #ffffff;
+	box-shadow: 0px 0px 30px rgba(233,233,233,1);
+	width: 860px;
+	margin-left: 210px;
+	/* height:60px;	  */
+
+	
+
+	/*arrendondamento*/
+
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+} 
+
+footer#rodape p {
+	text-align: center;
+	font-size: medium;
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+	font-family: 'Titillium Web' 'Arial'; /*importado da google*/
+}
