@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+/*
+   Daniel Dias dos Santos
+*/
+
+table {
+	border: 1px solid black; /*borda externa da tabela*/
+	border-spacing: 15px; /*espaçamento interno entre as bordas*/
+	margin-left: auto; /*alinhamento automático para centralizar a tabela*/
+	margin-right: auto;
+	margin-bottom:10px;
+	
+	box-shadow: 0px 0px 35px rgba(255,0,0,1);
+	
+	
+	/*arrendondamento da bordas*/
+	border-top-left-radius: 1em;
+	border-top-right-radius:1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius:1em;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 10px;
+	vertical-align: middle;
+	/*alinhamento vertical da célula – top | middle | bottom*/
+	
+	font-size:medium;
+	font-style:italic;
+	font-weight:bold;
+	
+	box-shadow: 0px 0px 10px rgba(233,233,233,1);
+	background-color:rgba(85,86,52,0.6);
+	color:white;
+	
+	
+	/*arrendondamento da bordas*/
+	border-top-left-radius: 1em;
+	border-top-right-radius:1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius:1em;
+}
