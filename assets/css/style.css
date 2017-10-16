@@ -1,0 +1,149 @@
+/* Space out content a bit */
+body {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+}
+a{
+  color:#CC0000;
+  text-decoration: underline;
+  -webkit-transition: all .2s;
+-moz-transition: all .2s;
+transition: all .2s
+}
+p{
+  font-size: 16px;
+line-height: 1.5;
+margin-bottom: 20px;
+color:#555;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.bg-primary {
+    background-color: #f05f40 !important
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: #222 !important
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, .7)
+}
+
+section {
+    padding: 30px 0
+}
+
+.section-heading {
+    margin-top: 0
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 10rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header .navbar-brand {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 1rem;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Overwrite */
+
+.nav-pills .nav-link, .show>.nav-pills .nav-link{
+  color: #CC0000;
+}
+
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link{
+  color: #fff;
+  background-color: #CC0000;
+}
+.nav-pills .nav-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+@media(max-width:768px) {
+    .navbar .navbar-nav>.nav-item {
+        float: none;
+        margin-left: .1rem;
+    }
+    .navbar .navbar-nav {
+        float:none !important;
+    }
+    .navbar .collapse.in, .navbar .collapsing  {
+        clear:both;
+    }
+}
+
+hr.section-title{
+  max-width: 50px;
+border-width: 3px;
+border-color: #f05f40
+}

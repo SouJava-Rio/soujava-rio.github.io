@@ -1,0 +1,12 @@
+/*!
+ * Start Bootstrap - Half Slider (https://startbootstrap.com/template-overviews/half-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/master/LICENSE)
+ */
+.carousel-caption{
+  background-color: rgba(0,0,0,.65);
+  color: #fff;
+}
+.carousel-caption p{
+  color:#fff;
+}
