@@ -10,3 +10,12 @@
 .carousel-caption p{
   color:#fff;
 }
+
+.carousel-caption a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.carousel-caption a:hover{
+  text-decoration: underline;
+}

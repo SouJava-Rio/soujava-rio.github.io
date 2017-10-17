@@ -12,7 +12,7 @@ a{
 transition: all .2s
 }
 p{
-  font-size: 16px;
+  font-size: 13px;
 line-height: 1.5;
 margin-bottom: 20px;
 color:#555;
@@ -21,8 +21,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-.bg-primary {
-    background-color: #f05f40 !important
+.btn{  
+border-radius: 300px;
+font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+a.btn{
+  text-decoration: none!important;
+}
+.text-primary{
+  color:#CC0000!important;
+}
+
+.bg-primary,.btn-primary {
+    background-color: #555 !important
 }
 
 .bg-dark {
