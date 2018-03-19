@@ -162,6 +162,11 @@ border-color: #f05f40
 .jumbotron{
   background: #000;
 }
+
+.country{
+  background: rgba(103, 42, 120, 0.93)!important;
+}
+
 .jumbotron h1{
   color:#fff;
 }
