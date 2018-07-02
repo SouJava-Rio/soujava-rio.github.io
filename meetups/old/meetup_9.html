@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:url" content="https://soujava-rio.github.io/meetup_9.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Java@Rio #9 - Deconstructing REST Security" />
+    <meta property="og:description" content="Encontro PRESENCIAL e GRATUITO do Java@Rio para troca de experiências e promoção da Plataforma Java." />
+    <meta property="og:image" content="https://soujava-rio.github.io/assets/img/JavaAtRio.png" />
+
+    <title>SouJava::Rio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="assets/css/half-slider.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="assets/img/duke.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/img/duke.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top bg-white justify-content-between">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="assets/img/SouJava_logo.png"/> </a>
+        <ul class="nav nav-pills justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger " href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger active" href="#home">Meetup <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <section id="home" class="section-scrollable">
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-lg-12 text-center">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Java@Rio #9 - Deconstructing REST Security</h1>
+                </div>
+              </div>
+              <hr class="primary section-title" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+
+              <center>
+                <img src="assets/img/palestrantes/jean_louis_monteiro.jpg" name="aboutme" width="140" height="140" border="0" class="rounded-circle"></a>
+                <h3 class="media-heading">Jean-Louis Monteiro <small class="bg-dark text-white">FRA</small></h3>
+                <!-- <span><strong>Skills: </strong></span>
+                <span class="label label-warning">HTML5/CSS</span>
+                <span class="label label-info">Adobe CS 5.5</span>
+                <span class="label label-info">Microsoft Office</span>
+                <span class="label label-success">Windows XP, Vista, 7</span> -->
+              </center>
+              <hr>
+              <center>
+                <h4 style="text-align:left">Sobre:</h4>
+                <p class="text-left lead"><strong> </strong><br> Jean-Louis is Director of Engineering at Tomitribe, Member of the Apache Foundation, seasoned Architect and deeply passionate about Open Source. His background is in banking, insurance, telecommunications, and public
+                  domain. His first contributions to Apache were implementing WS-Security in TomEE and is an active contributor to many other projects including OpenEJB, OpenWebBeans, Geronimo and Sirona. He is involved in the Java Community Process (JCP)
+                  and is an active member of the EJB 3.2 expert group.
+                </p>
+                <p class="text-left lead">He shares his knowledge by speaking at Java User Groups (JUG) and conferences such as ApacheCon Europe and Devoxx. His past experiences and present specialties include Spring, Hibernate, JPA, CDI, JSP, SOAP, RESTful services, WS-Security,
+                  Tapestry, Tomcat, IBM WebSphere, Java EE, SOA architecture and much more. And beyond his “normal” workday he also teaches Web Services, Java EE, and more at his local university in France. If Jean-Louis is not coding or playing with
+                  his precious children, Luna, Luka and Luis, he is living his second life as a referee in the French National Handball League.
+
+                </p>
+                <p class="text-left lead">
+                  <a href="https://www.linkedin.com/in/jlmonteiro" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> /jlmonteiro</a> |
+                  <a href="https://twitter.com/JLouisMonteiro" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> @JLouisMonteiro</a> |
+                  <a href="https://www.facebook.com/jeanlouis.monteiro.3" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> /jeanlouis.monteiro.3</a> |
+                  <a href="https://github.com/jeanouii" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> @jeanouii</a>
+                </p>
+                <br>
+                <p id="gamefication"><a href="https://www.meetup.com/pt-BR/Java-at-Rio/events/248513263/" class="btn btn-danger btn-lg">Inscreva-se via <i class="fa fa-meetup" aria-hidden="true"></i> Meetup</a>
+                </p>
+              </center>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section id="workshop" class="section-scrollable">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Sobre a palestra</h2>
+              <hr class="primary section-title" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="text-left lead">
+                The learning curve for security is severe and unforgiving. Specifications promise infinite flexibility, habitually give old concepts new names, are riddled with extensions, and almost seem designed to deliberately confuse. For a back-end REST developer,
+                choking all this down for the first time is mission impossible. With an aggressive distaste for fancy terminology, this session delves into OAuth 2.0 as it pertains to REST and shows how it falls into two camps: stateful and stateless.
+                The presentation also details a competing Amazon-style approach called HTTP Signatures and digs into the architectural differences of all three, with a heavy focus on the wire, showing actual HTTP messages and enough detail to have you
+                thinking, “I could write this myself.”
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="input" class="section-scrollable">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Entrada</h2>
+              <hr class="primary section-title" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="alert alert-warning" role="alert">
+                <h4 class="alert-heading">Atenção!</h4>
+                <p class="lead">A apresentação do DOCUMENTO DE IDENTIDADE é OBRIGATÓRIA para a participação, informe no momento do cadastro no evento.</p>
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="calendar" class="section-scrollable">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Agenda</h2>
+              <hr class="primary section-title" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="lead">
+                Data: segunda-feira, 14 de maio de 2018
+              </p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Horário</th>
+                    <th scope="col">Atividade(s)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">7:00pm - 9:00pm</th>
+                    <td>Deconstructing REST Security</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9:15pm</th>
+                    <td>Pizza ,Networking & Sorteio</td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section-scrollable">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Dúvidas, Sugestões e Patrocínio</h2>
+              <hr class="primary section-title" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p>
+                Ha qualquer momento os interessados poderão entrar em contato com os membros, líderes/coordenadores, para tirar dúvidas, submeter alguma palestra, fazer parte da comunidade, ajudar na organização através da lista de discussão do JUG:<br/>
+                <a href="mailto:organizacao-rio@soujava.groups.io">organizacao-rio@soujava.groups.io</a>
+                <br/>
+                <a href="mailto:organizacao-rio+subscribe@soujava.groups.io">Subscribe: organizacao-rio+subscribe@soujava.groups.io</a>
+                <br/>
+                <a href="https://chat.whatsapp.com/5WaY1nD2eOS0LswRtEeU5" class="fa fa-whatsapp" aria-hidden="true"> Grupo do SouJava-Rio/Java @ Rio .</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>&copy; SouJava 2017 - By SouJava Members</p>
+        <p>SouJava - Fortalecendo a comunidade Java brasileira.</p>
+      </footer>
+
+    </div>
+    <!-- /container -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Google Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script>
+
+    <script src="assets/js/site.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108252464-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108252464-1');
+
+    </script>
+
+  </body>
+
+</html>
